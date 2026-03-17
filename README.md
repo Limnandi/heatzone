@@ -51,7 +51,7 @@ Project Structure (WIP)
 /backend         -> Node.js API
 /infrastructure  -> Cloud and deployment configs (coming soon)
 Getting Started (Local Setup - WIP)
-git clone https://github.com/your-username/heatzone.git
+git clone https://github.com/Limnandi/heatzone.git
 
 cd backend && npm install
 cd ../frontend && npm install
