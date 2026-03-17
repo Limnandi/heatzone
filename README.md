@@ -1,66 +1,36 @@
-Heatzone
-Cloud-native event management platform built with AWS, Kubernetes, and CI/CD.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Overview
-Heatzone is a modern full-stack application designed to allow users to create, manage, and join events in real time.
+## Getting Started
 
-This project is being built as a hands-on learning journey into cloud computing, DevOps, and scalable system design, using industry-standard tools and practices.
+First, run the development server:
 
-Goals
-Build a production-ready cloud application
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Learn and implement AWS services
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Apply CI/CD pipelines for automated deployment
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Use Docker and Kubernetes for containerization and orchestration
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Follow real-world DevOps practices
+## Learn More
 
-Tech Stack (Planned)
-Frontend: Next.js (TypeScript)
+To learn more about Next.js, take a look at the following resources:
 
-Backend: Node.js / Express
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Database: PostgreSQL
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Cloud: AWS (EC2, S3, RDS, EKS)
+## Deploy on Vercel
 
-Containers: Docker
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Orchestration: Kubernetes
-
-CI/CD: GitHub Actions
-
-Project Status
-Currently in early development (setup and foundations phase)
-
-What We’re Learning
-Cloud infrastructure (AWS)
-
-Containerization (Docker)
-
-Kubernetes (EKS)
-
-CI/CD pipelines
-
-Infrastructure as Code (Terraform - upcoming)
-
-Project Structure (WIP)
-/frontend        -> Next.js app
-/backend         -> Node.js API
-/infrastructure  -> Cloud and deployment configs (coming soon)
-Getting Started (Local Setup - WIP)
-git clone https://github.com/Limnandi/heatzone.git
-
-cd backend && npm install
-cd ../frontend && npm install
-
-pnpm run dev
-Vision
-Heatzone aims to evolve into a fully scalable, cloud-native platform that demonstrates real-world DevOps and cloud engineering skills.
-
-Contributors
-
-Limnandi
-Auto
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
