@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Heatzone
+Cloud-native event management platform built with Next.js, Node.js, and Azure.
 
-## Getting Started
+Overview
+Heatzone is a full-stack event management platform that allows users to create, manage, and join events in real time.
 
-First, run the development server:
+This project is being built as a practical learning journey into cloud computing, DevOps, and scalable system design using modern tools and real-world architecture.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+Goals
+Build a production-ready full-stack application
+
+Learn cloud infrastructure using Azure
+
+Implement CI/CD pipelines for automated deployment
+
+Use Docker and Kubernetes for scalability
+
+Apply real-world DevOps practices
+
+Tech Stack
+Frontend
+Next.js (TypeScript)
+
+Backend
+Node.js (Express)
+
+Database
+Azure Database for PostgreSQL
+
+Prisma ORM
+
+Cloud & DevOps (Planned)
+Azure App Service
+
+Azure Static Web Apps
+
+Azure Kubernetes Service (AKS)
+
+Docker
+
+GitHub Actions (CI/CD)
+
+Azure Key Vault (secrets)
+
+Project Structure
+/frontend        -> Next.js application
+/backend         -> Node.js API
+Current Status
+Early development (foundation phase)
+
+Project structure set up
+
+Frontend initialized with Next.js
+
+Backend setup in progress
+
+Database integration in progress
+
+Getting Started
+Clone the repository
+git clone https://github.com/your-username/heatzone.git
+cd heatzone
+Frontend
+cd frontend
+pnpm install
 pnpm dev
-# or
-bun dev
-```
+Backend (coming soon)
+cd backend
+pnpm install
+pnpm run dev
+Learning Focus
+Cloud database integration (Azure PostgreSQL)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+API development with Node.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Full-stack architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+DevOps workflows and CI/CD
 
-## Learn More
+Containerization and orchestration
 
-To learn more about Next.js, take a look at the following resources:
+Vision
+Heatzone aims to evolve into a fully scalable, cloud-native platform that demonstrates real-world cloud engineering and DevOps skills.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributors
+Limnandi
+Atomic
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
